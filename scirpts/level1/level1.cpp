@@ -19,7 +19,7 @@ int main() {
     signal(SIGINT, handle_signal);  // Ctrl+C
 
     while (true) {
-        
+        // Empty loop
     }
 
     return 0;
