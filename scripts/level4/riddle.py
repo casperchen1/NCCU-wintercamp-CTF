@@ -13,9 +13,9 @@ def main():
     print("要取得機密資訊，請輸入正確的密碼")
     pw = input("輸入密碼: ")
 
-    if check_password(pw):
+    if check_password(pw): #驗證密碼是否正確
         print("密碼正確")
-        print(reveal())
+        print(reveal()) #揭曉機密
     else:
         print("密碼錯誤")
 
